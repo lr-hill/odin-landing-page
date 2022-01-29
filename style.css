@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+.header-pixabay {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.header-pic {
+    height: 150px;
+    width: 600px;
+}
+
+.header-link {
+    display: flex;
+    align-self: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.header-link a {
+    color: #dbdde0;
+    text-decoration: none;
+}
+
+.gear {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.altair-audio-badge {
+    align-self: center;
+    margin-right: 20px;
+
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.gear-text {
+    color: ivory;
+    font-size: 36px;
+}
+
+.estimate {
+    background-color: #3882F6;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0
+}
+
