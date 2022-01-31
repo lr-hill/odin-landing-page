@@ -75,3 +75,60 @@ h1 {
     border: 0
 }
 
+.cards-wrapper {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+
+}
+
+.card-subtext {
+    text-align: center;
+    margin-top:  10px;
+}
+
+.quote-wrapper{
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300px;
+    font-style: italic;
+    color: #1F2973;
+}
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;
+
+}
