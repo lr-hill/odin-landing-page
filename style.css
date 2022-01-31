@@ -44,7 +44,7 @@ body {
     justify-content: center;
     margin: 100px;
     margin-left: 400px;
-    margin-right: 400px;
+    margin-right: 200px;
 
 }
 
@@ -118,7 +118,7 @@ h2 {
     margin: 100px;
     padding-left: 400px;
     padding-right: 400px;
-
+    align-self: flex-end;
 }
 
 .quote-text {
